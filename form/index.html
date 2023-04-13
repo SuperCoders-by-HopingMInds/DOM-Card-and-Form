@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Details</title>
+    <style>
+        .elements{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+        .btns{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+        </style>
+</head>
+<body>
+      <h1>All Education Details</h1>
+      <form>
+        <div class="education-details">
+            
+        <fieldset class="field">
+            <legend>Education details 1</legend>
+        <div class="elements">
+           <label for="education">Education Level: </label> 
+           <input type="text" id="education" />  
+        </div>
+
+         <div  class="elements">  
+           <label for="insititution">Insititution: </label> 
+           <input type="text" id="insititution" /> 
+         </div>
+          <div  class="elements">
+           <label for="year">Year of passing: </label> 
+           <input type="text" id="year" />
+          </div>
+
+        </fieldset>
+
+
+        </div>
+             
+        <br>
+       <div class="btns">
+        <input type="submit">
+        <button id="add-more">Add more Eduaction Details</button>
+         
+        </div>
+            
+      </form>
+      <script src="./app.js"></script>
+</body>
+
+
+   
+
+
+</html>
